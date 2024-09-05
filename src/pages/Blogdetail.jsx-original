@@ -1,0 +1,225 @@
+import React, { Fragment } from "react";
+import Menu from "./Menu";
+import Footer from "./Footer"
+import { Link } from 'react-router-dom';
+
+
+
+
+
+
+function Blogdetail() {
+
+  return (
+    <Fragment>
+      <Menu />
+
+
+
+      <section className="breadcumb-area pt-70 pb-70" style={{ backgroundImage: "url('assets/img/breadcrumb.png')" }}>
+        <div className="container">
+          <h2>Blog Details</h2>
+          <ul>
+            <li><Link to="/" >Home</Link></li>
+            <li><Link to="/">Services</Link></li>
+            <li>Blog Details</li>
+          </ul>
+        </div>
+      </section>
+
+
+      <section className="blog-details-section pt-120 pb-90">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-8 mb-30">
+              <div className="blog-details-full">
+                <div className="thumbnail">
+                  <img src="assets/img/blog/blog1.png" alt="Blog Details Image" /></div>
+                <div className="b-auth-section mt-30 mb-20">
+                  <div className="row">
+                    <div className="col-md-6 order-md-first order-last">
+                      <div className="left-a">
+                        <span className="img"><img src="assets/img/auth-img.png" alt="auth" /></span>
+                        <span>by <a href="#">Dr Navneet Saxena</a></span>
+                        <span>22 Aug 2023</span>
+                      </div>
+                    </div>
+                    <div className="col-md-6 align-self-center text-right">
+                      <div className="blog-share">
+                        <span><a href="#"><i className="fa-solid fa-link"></i></a></span>
+                        <span><a href="#"><i className="fa-brands fa-linkedin"></i></a></span>
+                        <span><a href="#"><i className="fa-brands fa-twitter"></i></a></span>
+                        <span><a href="#"><i className="fa-brands fa-facebook-f"></i></a></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="content">
+                  <h2>Migration Pellentesque consequat in augue sedus sodales Top Standard size of business.</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut venenatis sagittis tortor, in convallis justo sagittis et. Nunc placerat risus sem, vitae dictum libero laoreet sit amet. Suspendisse semper leo nec justo aliquam venenatis. Aliquam vitae lorem sed orci vulputate porta. Vestibulum ut elit eget arcu tincidunt sollicitudin quis sed augue. Aenean nibh nunc, elementum a dolor vel, vestibulum commodo dui. Donec id felis a ipsum molestie tincidunt. Nunc ullamcorper quam nunc, eget laoreet dui pharetra eget. Aenean viverra interdum condimentum. Cras mollis, arcu vel fermentum auctor.</p>
+                  <p>Phasellus ac consequat turpis, sit amet fermentum nulla. Donec dignissim augue nunc. Praesent bibendum erat ac lectus molestie lobortis. Curabitur ultrices justo ac leo facilisis incidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut venenatis sagittis tortor, in convallis justo sagittis et. Nunc placerat risus sem, vitae dictum libero laoreet sit amet. Suspendisse semper.</p>
+                  <p className="quote">
+                    <img src="assets/img/quote2.png" alt="quote" />
+                    Phasellus ac consequat turpis, sit amet fermentum nulla. Donec dignissim augue nunc. Praesent bibendum erat ac lectus molestie lobortis. Curabitur ultrices justo ac leo facilisis tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut venenatis sagittis tortor, in convallis justo sagittis et. Nunc placerat risus sem, vitae dictum libero laoreet sit amet. Suspendisse semper.</p>
+                  <p>Sed nec sapien eu nibh porta fringilla. Aenean in lectus id tellus tempus rutrum vitae a
+                    elit. Nulla sit amet interdum ligula. Duis bibendum porttitor tempus. Morbi nisi nisl, sagittis in enim at, tempus convallis magna. Nam malesuada risus non congue viverra. Nullam ultrices massa orci, in eleifend diam fringilla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut venenatis sagittis tortor, in convallis justo sagittis et. Nunc placerat risus sem, vitae dictum libero laoreet sit amet. Suspendisse semper leo nec justo aliquam venenatis.</p>
+
+                </div>
+
+                <div className="related-blog-section mt-120 mb-0">
+                  <div className="row">
+                    <div className="col-lg-12 mb-20">
+                      <div className="section-title">
+                        <h2>Related Blogs</h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-lg-6 col-md-6 mb-30">
+                      <div className="blog-single-item">
+                        <div className="thumbnail">
+                          <img src="assets/img/blog/blog2.png" alt="blog" /></div>
+                        <div className="content">
+                          <div className="auth">
+                            <span>by <a href="#">Dr Navneet Saxena</a></span>
+                            <span>22 Aug 2023</span>
+                          </div>
+                          <h3>Fusce tincidunt commodo sapien, quis porttitoripsum fringilla et.</h3>
+                          <a className="button-1" href="#">Explore Now <i className="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="col-lg-6 col-md-6 mb-30">
+                      <div className="blog-single-item">
+                        <div className="thumbnail">
+                          <img src="assets/img/blog/blog3.png" alt="blog" /></div>
+                        <div className="content">
+                          <div className="auth">
+                            <span>by <a href="#">Dr Navneet Saxena</a></span>
+                            <span>22 Aug 2023</span>
+                          </div>
+                          <h3>Fusce tincidunt commodo sapien, quis porttitoripsum fringilla et.</h3>
+                          <a className="button-1" href="#">Explore Now <i className="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 mb-30">
+              <div className="sidebar-widgets">
+                <div className="sidebar-single-widget socialicon-widget mb-30">
+                  <h5 className="pb-20">Trending Blogs</h5>
+                  <div className="sidebar-blog-widgets">
+                    <div className="single-item">
+                      <div className="thumb"><a href="#">
+                        <img src="assets/img/blog/w-1.png" alt="blog" /></a></div>
+                      <div className="content">
+                        <span>by <a href="#">Dr Navneet Saxena</a></span>
+                        <h4><a href="#">Fusce tincidunt commodo sapien, quis portitor.</a>
+                        </h4>
+                      </div>
+                    </div>
+                    <div className="single-item">
+                      <div className="thumb"><a href="#">
+                        <img src="assets/img/blog/w-2.png" alt="blog" /></a></div>
+                      <div className="content">
+                        <span>by <a href="#">Dr Navneet Saxena</a></span>
+                        <h4><a href="#">Fusce tincidunt commodo sapien, quis portitor.</a>
+                        </h4>
+                      </div>
+                    </div>
+                    <div className="single-item">
+                      <div className="thumb"><a href="#">
+                        <img src="assets/img/blog/w-3.png" alt="blog" /></a></div>
+                      <div className="content">
+                        <span>by <a href="#">Dr Navneet Saxena</a></span>
+                        <h4><a href="#">Fusce tincidunt commodo sapien, quis portitor.</a>
+                        </h4>
+                      </div>
+                    </div>
+                    <div className="single-item">
+                      <div className="thumb"><a href="#">
+                        <img src="assets/img/blog/w-4.png" alt="blog" /></a></div>
+                      <div className="content">
+                        <span>by <a href="#">Dr Navneet Saxena</a></span>
+                        <h4><a href="#">Fusce tincidunt commodo sapien, quis portitor.</a>
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="sidebar-single-widget widget-appointment mb-30">
+                  <h5 className="pb-20">Get in Touch</h5>
+                  <div className="get-appointment-form">
+                    <form action="#">
+                      <div className="single-field">
+                        <input type="text" placeholder="Your Name" name="yourname" />
+                      </div>
+
+                      <div className="single-field">
+                        <input type="email" placeholder="Email" name="yourphone" />
+                      </div>
+
+                      <div className="single-field">
+                        <input type="text" placeholder="Phone No." name="yourphone" />
+                      </div>
+
+                      <div className="single-field">
+                        <select name="depname">
+                          <option>Select Service</option>
+                          <option value="">Pre-clinical Operations</option>
+                          <option value="">Clinical Operation</option>
+                          <option value="">Medical Writing</option>
+                          <option value="">Pharmacovigilance</option>
+                          <option value="">Quality Assurance</option>
+                          <option value="">Medical Affairs</option>
+                          <option value="">Biostatistics & Programming</option>
+                          <option value="">Regulatory Affairs</option>
+                          <option value="">Data Management</option>
+                        </select>
+                      </div>
+
+                      <div className="single-field">
+                        <textarea name="yourmessage" placeholder="Your Message"></textarea>
+                      </div>
+
+                      <div className="align-self-end">
+                        <div className="single-field pb-0">
+                          <button className="button-1">Send Now <i className="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div className="sidebar-single-widget category-widget mb-30">
+                  <h5 className="pb-10">Services</h5>
+                  <ul>
+                    <li><a href="#"><i className="fa-solid fa-caret-right"></i> Pre-clinical Operations</a></li>
+                    <li><a href="#"><i className="fa-solid fa-caret-right"></i> Clinical Operation</a></li>
+                    <li><a href="#"><i className="fa-solid fa-caret-right"></i> Medical Writing</a></li>
+                    <li><a href="#"><i className="fa-solid fa-caret-right"></i> Pharmacovigilance</a></li>
+                    <li><a href="#"><i className="fa-solid fa-caret-right"></i> Quality Assurance</a></li>
+                    <li><a href="#"><i className="fa-solid fa-caret-right"></i> Medical Affairs</a></li>
+                    <li><a href="#"><i className="fa-solid fa-caret-right"></i> Biostatistics & Programming</a></li>
+                    <li><a href="#"><i className="fa-solid fa-caret-right"></i> Regulatory Affairs</a></li>
+                    <li><a href="#"><i className="fa-solid fa-caret-right"></i> Data Management</a></li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <Footer />
+    </Fragment>
+  )
+
+};
+
+export default Blogdetail;
